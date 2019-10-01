@@ -1,0 +1,37 @@
+{
+  "name": "green-jon-vscode",
+  "displayName": "Freshest of Green Theme",
+  "author": "Jon Forney aka @GodzillaJonny",
+  "version": "1.0.0",
+  "description": "a very green VSCODE theme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publisher": "GodzillaJonny",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Themes"
+  ],
+  
+  "contributes": {
+    "themes": [
+        {
+            "label": "Freshest of Green Theme",
+            "uiTheme": "vs",
+            "path": "./themes/green-main.json"
+        }
+    ]
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MustardJoe/green-jon-vscode.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MustardJoe/green-jon-vscode/issues"
+  },
+  "homepage": "https://github.com/MustardJoe/green-jon-vscode#readme"
+}
