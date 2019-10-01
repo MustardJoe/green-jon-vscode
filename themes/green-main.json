@@ -1,0 +1,38 @@
+{
+  "name": "Freshest of Green Theme",
+  "type": "light",
+  "colors": {
+		"editor.foreground": "#44db1e",
+		"activityBar.background": "#5ba754",
+		"tab.inactiveBackground": "#c4f7d0",
+		"editorGroupHeader.tabsBackground": "#00ff0d",
+		"terminal.background": "#30c238",
+		"titleBar.activeBackground": "#35e235",
+		"scrollbarSlider.background": "#48bd39",
+		"statusBar.background": "#3ba540",
+		"statusBar.debuggingBackground": "#37c537",
+		"statusBar.noFolderBackground": "#65bd4b",
+		"menu.background": "#49ad5a",
+		"list.focusBackground": "#43aa4c",
+    "sideBar.background": "#32CD32",
+    
+    "editor.background": "#228B22",
+    "editor.lineHighlightBackground": "#313131",
+
+    "editorLineNumber.activeForeground": "#98FB98",
+    "editorLineNumber.foreground": "#98FB98"
+  },
+
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": [
+          "comment.block"
+      ],
+      "settings": {
+          "foreground": "#81C784",
+          "fontStyle": "italic"
+      }
+    }
+  ]
+}
