@@ -2,25 +2,38 @@
   "name": "Freshest of Green Theme",
   "type": "light",
   "colors": {
-		"editor.foreground": "#44db1e",
-		"activityBar.background": "#5ba754",
-		"tab.inactiveBackground": "#c4f7d0",
-		"editorGroupHeader.tabsBackground": "#00ff0d",
-		"terminal.background": "#30c238",
-		"titleBar.activeBackground": "#35e235",
-		"scrollbarSlider.background": "#48bd39",
-		"statusBar.background": "#3ba540",
-		"statusBar.debuggingBackground": "#37c537",
-		"statusBar.noFolderBackground": "#65bd4b",
-		"menu.background": "#49ad5a",
-		"list.focusBackground": "#43aa4c",
-    "sideBar.background": "#32CD32",
+    "activityBar.background": "#5ba754",
     
     "editor.background": "#228B22",
-    "editor.lineHighlightBackground": "#313131",
-
+		"editor.foreground": "#44db1e",
+    "editor.lineHighlightBackground": "#2cb52c",
+    "editor.wordHighlightBackground": "#2E8B57",
+    "editor.wordHighlightStrongBackground": "#2e8b7c",
+    
+		"editorGroupHeader.tabsBackground": "#00ff0d",
     "editorLineNumber.activeForeground": "#98FB98",
-    "editorLineNumber.foreground": "#98FB98"
+    "editorLineNumber.foreground": "#7ed07e",
+    
+    "list.focusBackground": "#43aa4c",
+    
+    "menu.background": "#49ad5a",
+    
+		"scrollbarSlider.background": "#48bd39",
+    "sideBar.background": "#32CD32",
+
+		"statusBar.background": "#3ba540",
+		"statusBar.debuggingBackground": "#37c537",
+    "statusBar.noFolderBackground": "#65bd4b",
+    
+		"tab.inactiveBackground": "#98FB98",
+    
+    "tab.border": "#00FF00",
+    
+    "terminal.background": "#41ab41",
+    "terminal.foreground": "#0d0d73",
+		"titleBar.activeBackground": "#35e235",
+    "titleBar.activeForeground": "#0d0d73",
+    "titleBar.border": "#556B2F"
   },
 
   "tokenColors": [
@@ -32,6 +45,54 @@
       "settings": {
           "foreground": "#81C784",
           "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Due1-grouping",
+      "scope": "constant.other.symbol, constant.numeric, constant.language.boolean, constant, support.constant, variable.language, entity.name.tag, punctuation.definition.tag, entity.other.attribute-name, entity.other.attribute-name.id, punctuation.definition.entity, meta.link, markup.underline.link",
+      "settings": {
+        "foreground": "#00FA9A",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Due2",
+      "scope": "meta.definition, variable.parameter.function, variable.declaration, variable.parameter, variable.other.assignment, beginning.punctuation.definition.list, constant.other.color",
+      "settings": {
+        "foreground": "#00FF00",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Uno1",
+      "scope": "keyword.operator, storage.type.function.arrow",
+      "settings": {
+        "foreground": "#9ACD32",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Uno2",
+      "scope": "markup.raw.inline, markup.inline, punctuation.definition.markdown, meta.object-literal.key, support.type.property-name, punctuation.curlybrace, punctuation.squarebracket, punctuation.parenthesis, punctuation.definition.begin, punctuation.definition.end, punctuation.definition.bracket, meta.property-name, punctuation.section.embedded, variable.interpolation, support.class.component, meta.decorator, entity.name.function.decorator, punctuation.definition.character-class, punctuation.definition.group, keyword.control.anchor.regexp",
+      "settings": {
+        "foreground": "#ADFF2F",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Uno3-grouping",
+      "scope": "constant.character.escape, punctuation.definition.template-expression, punctuation.definition.imports, punctuation.definition.scope, punctuation.definition.dictionary, punctuation.definition.tag, punctuation.definition.binding-pattern.array, punctuation.definition.binding-pattern.object, punctuation.definition.block, punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array, punctuation.terminator, punctuation.other.comma, punctuation.separator, punctuation.section, meta.brace, meta.delimiter, string.other.link, markup.quote, meta.separator",
+      "settings": {
+        "foreground": "#98FB98",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "experimental",
+      "scope": "string.quoted.double.json",
+      "settings": {
+        "foreground": "#00FF7F",
+        "fontStyle": ""
       }
     }
   ]
