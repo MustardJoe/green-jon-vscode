@@ -3,9 +3,15 @@
   "type": "light",
   "colors": {
     "activityBar.background": "#5ba754",
+    "activityBar.border": "#556B2F",
+    "activityBar.dropBackground": "#36ad1f",
+    "activityBar.foreground": "#006400",
+    "activityBar.inactiveForeground": "#008500",
+    "activityBarBadge.background": "#36ad1f",
+    "activityBarBadge.foreground": "#ffffff",
     
     "editor.background": "#228B22",
-		"editor.foreground": "#44db1e",
+    "editor.foreground": "#44db1e",
     "editor.lineHighlightBackground": "#2cb52c",
     "editor.wordHighlightBackground": "#2E8B57",
     "editor.wordHighlightStrongBackground": "#2e8b7c",
