@@ -28,11 +28,11 @@
 		"tab.inactiveBackground": "#98FB98",
     
     "tab.border": "#00FF00",
-    
+
     "terminal.background": "#41ab41",
-    "terminal.foreground": "#0d0d73",
+    "terminal.foreground": "#006400",
 		"titleBar.activeBackground": "#35e235",
-    "titleBar.activeForeground": "#0d0d73",
+    "titleBar.activeForeground": "#006400",
     "titleBar.border": "#556B2F"
   },
 
