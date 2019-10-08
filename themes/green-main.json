@@ -95,7 +95,7 @@
       "name": "Tre1",
       "scope": "string, punctuation.definition.string, support.constant.property-value",
       "settings": {
-        "foreground": "#21ae04",
+        "foreground": "#00fa9a",
         "fontStyle": ""
       }
     },
